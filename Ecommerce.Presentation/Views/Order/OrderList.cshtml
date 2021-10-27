@@ -1,0 +1,56 @@
+﻿@using Ecommerce.Presentation.Helper;
+@model IEnumerable<Ecommerce.Entity.Classes.Order>
+@{
+	ViewBag.Title = "OrderList";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row" style="margin-top: 5%;">
+	<div class="col-md-12">
+		<table id="tblOrders" class="table table-bordered">
+			<thead>
+				<tr>
+					<th>Sipariş Numarası</th>
+					<th>Siparişi Veren Kullanıcı</th>
+					<th>Toplam Tutar</th>
+					<th>Sipariş Durumu</th>
+					<th>İşlem</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>@item.OrderNumber</td>
+						<td>@item.User.NameAndSurname</td>
+						<td>@item.TotalAmount</td>
+						<td>
+							@{
+								var result = EnumHelper<Ecommerce.Entity.Enums.OrderStatus>.GetDisplayValue(item.OrderStatus);
+
+							}
+
+							@result
+
+						
+						</td>
+						<td>
+							<a href="/Order/SiparisDetay/@item.ID" class="btn btn-success">Detay</a>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+@section scripts {
+
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+
+			$("#tblOrders").DataTable();
+		})
+	</script>
+}

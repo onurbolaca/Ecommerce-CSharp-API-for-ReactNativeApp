@@ -1,0 +1,68 @@
+﻿@using Ecommerce.Entity.Result
+@using Ecommerce.Entity.Classes
+@model Ecommerce.Presentation.Models.LoginModel
+@{
+	Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Gull - Laravel + Bootstrap 4 admin template</title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="/Admin-Content/assets/styles/css/themes/lite-purple.min.css">
+</head>
+
+<body class="text-left">
+	<div class="auth-layout-wrap" style="background-image: url(/Admin-Content/assets/images/photo-wide-4.jpg)">
+		<div class="auth-content">
+			<div class="card o-hidden">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="p-4">
+							<div class="auth-logo text-center mb-4">
+								<img src="/Admin-Content/assets/images/logo.png" alt="">
+							</div>
+							<h1 class="mb-3 text-18">Selami Şahin Market A.Ş. LTD Yönetici Girişi</h1>
+
+							@{
+								var sonuc = ViewBag.Sonuc as ResultObject<User>;
+							}
+
+							@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+							{
+								<div class="form-group">
+									<label for="email">@Html.DisplayNameFor(model => model.EmailAdress)</label>
+									@Html.TextBoxFor(model => model.EmailAdress, new { @class = "form-control form-control-rounded", @type = "email", @name = "email" })
+									@Html.ValidationMessageFor(model => model.EmailAdress)
+								</div>
+								<div class="form-group">
+									<label for="password">@Html.DisplayNameFor(model => model.Password)</label>
+									@Html.TextBoxFor(model => model.Password, new { @class = "form-control form-control-rounded", @type = "password", @name = "password" })
+									@Html.ValidationMessageFor(model => model.Password)
+								</div>
+
+								if (sonuc != null && sonuc.ResultStatus == Ecommerce.Entity.Enums.ResultStatus.Warning)
+								{
+									<div class="alert alert-danger">@sonuc.Message</div>
+								}
+
+								<button type="submit" class="btn btn-rounded btn-primary btn-block mt-2">Giriş Yap</button>
+							}
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="/Admin-Content/assets/js/vendor/jquery-3.3.1.min.js"></script>
+	<script src="/Admin-Content/assets/js/vendor/bootstrap.bundle.min.js"></script>
+	<script src="/Admin-Content/assets/js/es5/script.min.js"></script>
+</body>
+
+</html>

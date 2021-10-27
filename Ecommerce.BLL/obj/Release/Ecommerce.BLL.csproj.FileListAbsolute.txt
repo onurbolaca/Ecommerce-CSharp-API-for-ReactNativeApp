@@ -1,0 +1,67 @@
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.dll.config
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.dll
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.pdb
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.dll
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.Entity.dll
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.dll
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.pdb
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.dll.config
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.Entity.pdb
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.xml
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.csprojAssemblyReference.cache
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.csproj.CopyComplete
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.dll
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.pdb
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.dll.config
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.dll
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.pdb
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.dll
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.Entity.dll
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.dll
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.pdb
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.dll.config
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.Entity.pdb
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.xml
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.csprojAssemblyReference.cache
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.csproj.CoreCompileInputs.cache
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.csproj.CopyComplete
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.dll
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.pdb
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.dll.config
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.dll
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.pdb
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.dll
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.Entity.dll
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.dll
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.pdb
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.dll.config
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.Entity.pdb
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.xml
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.csproj.CopyComplete
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.dll
+C:\Users\PC\Desktop\EcommerceAll\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.pdb
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.dll.config
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.dll
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.BLL.pdb
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.dll
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.Entity.dll
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.dll
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.pdb
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.DAL.dll.config
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\Ecommerce.Entity.pdb
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.xml
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.csprojAssemblyReference.cache
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.csproj.CopyComplete
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.dll
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.BLL\obj\Release\Ecommerce.BLL.pdb

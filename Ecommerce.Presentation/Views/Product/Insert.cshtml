@@ -1,0 +1,179 @@
+﻿@using Ecommerce.Entity.Result
+@using Ecommerce.Entity.Classes
+@model Ecommerce.Entity.Classes.Product
+@{
+	ViewBag.Title = "Insert";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row" style="margin-top:5%;">
+	<div class="col-md-12">
+		@using (Html.BeginForm("Insert", "Product", FormMethod.Post, new
+		{
+			enctype = "multipart/form-data",
+			id = "product"
+		}))
+		{
+
+			if (ViewBag.Result != null)
+			{
+				var resultobject = ViewBag.Result as ResultObject<Product>;
+
+				if (resultobject.ResultStatus == Ecommerce.Entity.Enums.ResultStatus.Success)
+				{
+					<div class="alert alert-success">@resultobject.Message</div>
+				}
+
+				else if (resultobject.ResultStatus == Ecommerce.Entity.Enums.ResultStatus.Info)
+				{
+					<div class="alert alert-info">@resultobject.Message</div>
+				}
+
+				else if (resultobject.ResultStatus == Ecommerce.Entity.Enums.ResultStatus.Warning)
+				{
+					<div class="alert alert-warning">@resultobject.Message</div>
+				}
+
+				else
+				{
+					<div class="alert alert-danger">@resultobject.Message</div>
+				}
+			}
+
+
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.CategoryID)
+				@Html.DropDownListFor(model => model.CategoryID, (SelectList)ViewBag.Categories, new { @class = "form-control js-example-basic-single" })
+				@Html.ValidationMessageFor(model => model.CategoryID)
+			</div>
+
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.ProductName)
+				@Html.TextBoxFor(model => model.ProductName, new { @class = "form-control" })
+				@Html.ValidationMessageFor(model => model.ProductName)
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.ProductDescription)
+				@Html.TextAreaFor(model => model.ProductDescription, new { @class = "form-control" })
+				@Html.ValidationMessageFor(model => model.ProductDescription)
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.UnitPrice)
+				@Html.TextBoxFor(model => model.UnitPrice, new { @class = "form-control", @type = "number" })
+				@Html.ValidationMessageFor(model => model.UnitPrice)
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.StockAmount)
+				@Html.TextBoxFor(model => model.StockAmount, new { @class = "form-control", @type = "number" })
+				@Html.ValidationMessageFor(model => model.StockAmount)
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.MinimumStockAmount)
+				@Html.TextBoxFor(model => model.MinimumStockAmount, new { @class = "form-control", @type = "number" })
+				@Html.ValidationMessageFor(model => model.MinimumStockAmount)
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.VatRate)
+				@Html.TextBoxFor(model => model.VatRate, new { @class = "form-control", @type = "number" })
+				@Html.ValidationMessageFor(model => model.VatRate)
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.ExpiredDate)
+				@Html.TextBoxFor(model => model.ExpiredDate, new { @class = "form-control", @type = "date" })
+				@Html.ValidationMessageFor(model => model.ExpiredDate)
+			</div>
+
+			<div class="form-group">
+
+
+				<div id="dZUpload" class="dropzone">
+					<div class="dz-default dz-message">Dosyalarınızı buraya sürekleyip bırakabilir veya buraya tıklayarak seçebilirsiniz</div>
+					<div class="dz-preview dz-file-preview">
+						<div class="dz-details">
+							<div class="dz-filename"><span data-dz-name></span></div>
+							<div class="dz-size" data-dz-size></div>
+							<img data-dz-thumbnail />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<button type="button" class="btn btn-primary" onclick="TestUpload()">Kaydet</button>
+			</div>
+		}
+	</div>
+</div>
+
+@section scripts{
+	<script type="text/javascript">
+
+		Dropzone.autoDiscover = false;
+
+		var ImageArray = ["123","123","123"];
+
+
+		$(document).ready(function () {
+			$('.js-example-basic-single').select2();
+
+
+			$("#dZUpload").dropzone({
+				url: "/Product/FileUpload",
+				maxFiles: 5,
+				addRemoveLinks: true,
+				success: function (file, response) {
+					file.previewElement.classList.add("dz-success");
+					console.log(file);
+				},
+
+				removedfile: function (file) {
+					file.previewElement.remove();
+				},
+				error: function (file, response) {
+
+				}
+			});
+		});
+
+		function TestUpload() {
+			var Product = {};
+
+			Product.ProductName = "123"
+			Product.Images = ImageArray;
+
+			$.ajax({
+				url: '/Product/Insert',
+				type: 'POST',
+				dataType: 'json',
+				contentType: "application/json; charset=utf-8",
+				cache: false,
+				data: JSON.stringify({ model: Product }),
+				beforeSend: function () {
+					$.blockUI({ message: '<h1> Silinme İşlemi Yapılıyor</h1>' });
+				},
+				success: function (response) {
+					$.unblockUI();
+					SonucGoster(response.ResultStatus, response.Message);
+
+				},
+				error: function (exp) {
+					console.log(exp)
+				},
+				complete: function () {
+
+				}
+			});
+
+		}
+
+	</script>
+}
+

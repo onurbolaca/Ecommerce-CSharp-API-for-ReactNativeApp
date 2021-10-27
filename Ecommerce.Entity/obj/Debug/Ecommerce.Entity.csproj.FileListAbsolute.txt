@@ -1,0 +1,10 @@
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.Entity\bin\Debug\Ecommerce.Entity.dll
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.Entity\bin\Debug\Ecommerce.Entity.pdb
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.Entity\obj\Debug\Ecommerce.Entity.dll
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.Entity\obj\Debug\Ecommerce.Entity.pdb
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.Entity\bin\Debug\Ecommerce.Entity.dll
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.Entity\bin\Debug\Ecommerce.Entity.pdb
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.Entity\obj\Debug\Ecommerce.Entity.csprojAssemblyReference.cache
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.Entity\obj\Debug\Ecommerce.Entity.dll
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.Entity\obj\Debug\Ecommerce.Entity.pdb
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.Entity\obj\Debug\Ecommerce.Entity.csproj.CoreCompileInputs.cache

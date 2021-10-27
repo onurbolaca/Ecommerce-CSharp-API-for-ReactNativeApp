@@ -1,0 +1,16 @@
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.Entity\bin\Release\Ecommerce.Entity.dll
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.Entity\bin\Release\Ecommerce.Entity.pdb
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.Entity\obj\Release\Ecommerce.Entity.dll
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.Entity\obj\Release\Ecommerce.Entity.pdb
+C:\Users\kagan\Desktop\Other\Kağan\Ecommerce\Ecommerce.Entity\obj\Release\Ecommerce.Entity.csprojAssemblyReference.cache
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.Entity\bin\Release\Ecommerce.Entity.dll
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.Entity\bin\Release\Ecommerce.Entity.pdb
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.Entity\obj\Release\Ecommerce.Entity.csprojAssemblyReference.cache
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.Entity\obj\Release\Ecommerce.Entity.csproj.CoreCompileInputs.cache
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.Entity\obj\Release\Ecommerce.Entity.dll
+C:\Users\kagan\Desktop\Ecommerce\Ecommerce.Entity\obj\Release\Ecommerce.Entity.pdb
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.Entity\bin\Release\Ecommerce.Entity.dll
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.Entity\bin\Release\Ecommerce.Entity.pdb
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.Entity\obj\Release\Ecommerce.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.Entity\obj\Release\Ecommerce.Entity.dll
+C:\Users\Ev\Desktop\kod\5 - React Native\ReactNative\EcommerceAll - Benim Yaptıklarım\3 - Ecommerce Asıl Proje API - HOCANIN C# MVC\Ecommerce\Ecommerce.Entity\obj\Release\Ecommerce.Entity.pdb

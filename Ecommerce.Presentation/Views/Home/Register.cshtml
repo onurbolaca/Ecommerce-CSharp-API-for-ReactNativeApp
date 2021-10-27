@@ -1,0 +1,79 @@
+﻿@model Ecommerce.Entity.Classes.User
+@{
+	ViewBag.Title = "Register";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="main-container col1-layout wow bounceInUp animated animated" style="visibility: visible;">
+
+	<div class="main">
+		<div class="account-login container">
+			<!--page-title-->
+
+
+			@using (Html.BeginForm("Register", "Home", FormMethod.Post))
+			{
+				<fieldset class="col2-set">
+					<div class="col-md-6">
+						<strong>Yeni Kullanıcı</strong>
+						<div class="content">
+							<ul class="form-list">
+								<li>
+									<label for="email">@Html.DisplayNameFor(model => model.Name)<em class="required">*</em></label>
+									<div class="input-box">
+										@Html.TextBoxFor(model => model.Name, new { @class = "input-text" })
+										@Html.ValidationMessageFor(model => model.Name)
+									</div>
+								</li>
+								<li>
+									<label for="email">@Html.DisplayNameFor(model => model.Surname)<em class="required">*</em></label>
+									<div class="input-box">
+										@Html.TextBoxFor(model => model.Surname, new { @class = "input-text" })
+										@Html.ValidationMessageFor(model => model.Surname)
+									</div>
+								</li>
+								<li>
+									<label for="email">@Html.DisplayNameFor(model => model.EMail)<em class="required">*</em></label>
+									<div class="input-box">
+										@Html.TextBoxFor(model => model.EMail, new { @class = "input-text", @type = "email" })
+										@Html.ValidationMessageFor(model => model.EMail)
+									</div>
+								</li>
+
+								<li>
+									<label for="email">@Html.DisplayNameFor(model => model.Password)<em class="required">*</em></label>
+									<div class="input-box">
+										@Html.TextBoxFor(model => model.Password, new { @class = "input-text", @type = "password" })
+										@Html.ValidationMessageFor(model => model.Password)
+									</div>
+								</li>
+
+								<li>
+									<label for="email">@Html.DisplayNameFor(model => model.PasswordRepeat)<em class="required">*</em></label>
+									<div class="input-box">
+										@Html.TextBoxFor(model => model.PasswordRepeat, new { @class = "input-text", @type = "password" })
+										@Html.ValidationMessageFor(model => model.PasswordRepeat)
+									</div>
+								</li>
+
+								<li>
+									<label for="email">@Html.DisplayNameFor(model => model.Address)<em class="required">*</em></label>
+									<div class="input-box">
+										@Html.TextAreaFor(model => model.Address, new { @class = "input-text" })
+										@Html.ValidationMessageFor(model => model.Address)
+									</div>
+								</li>
+							</ul>
+
+							<div class="buttons-set">
+
+								<button type="submit" class="button login" title="Login" name="send" id="send2"><span>Kayıt Ol</span></button>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+			}
+		</div>
+	</div>
+</div>

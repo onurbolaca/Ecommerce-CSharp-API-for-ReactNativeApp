@@ -1,0 +1,63 @@
+﻿@using Ecommerce.Entity.Result
+@using Ecommerce.Entity.Classes
+@model Ecommerce.Entity.Classes.Category
+@{
+	ViewBag.Title = "Insert";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row" style="margin-top:5%;">
+	<div class="col-md-12">
+		@*Html Begin Form İçinde Bulunduğu Modele atanmış olan input değerlerini belirrtiğimiz Controller ve Action Altına Post İşlemi Yapar*@
+
+		@if (ViewBag.Result != null)
+		{
+			var resultobject = ViewBag.Result as ResultObject<Category>;
+
+			if (resultobject.ResultStatus == Ecommerce.Entity.Enums.ResultStatus.Success)
+			{
+				<div class="alert alert-success">@resultobject.Message</div>
+			}
+
+			else if (resultobject.ResultStatus == Ecommerce.Entity.Enums.ResultStatus.Info)
+			{
+				<div class="alert alert-info">@resultobject.Message</div>
+			}
+
+			else if (resultobject.ResultStatus == Ecommerce.Entity.Enums.ResultStatus.Warning)
+			{
+				<div class="alert alert-warning">@resultobject.Message</div>
+			}
+
+			else
+			{
+				<div class="alert alert-danger">@resultobject.Message</div>
+			}
+
+
+		}
+
+
+		@using (Html.BeginForm("Insert", "Category", FormMethod.Post))
+		{
+			<div class="form-group">
+				@Html.LabelFor(model => model.CategoryName)
+				@Html.TextBoxFor(model => model.CategoryName, new { @class = "form-control" })
+				@Html.ValidationMessageFor(model => model.CategoryName)
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.CategoryDescription)
+				@Html.TextAreaFor(model => model.CategoryDescription, new { @class = "form-control" })
+				@Html.ValidationMessageFor(model => model.CategoryDescription)
+			</div>
+
+			<div class="form-group">
+				<button type="submit" class="btn btn-success">Kaydet</button>
+			</div>
+		}
+
+	</div>
+</div>
+
+

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Ecommerce.Entity.Classes.Product>
+
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="row" style="margin-top:5%;">
+	<div class="col-md-12">
+		<table id="tblProduct" class="table table-bordered">
+			<thead>
+				<tr>
+					<th>@Html.DisplayNameFor(model => model.ProductName)</th>
+					<th>@Html.DisplayNameFor(model => model.ProductDescription)</th>
+					<th>Güncelle</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>@item.ProductName</td>
+						<td>@item.ProductDescription</td>
+						<td><a href="/Product/Update/@item.ID" class="btn btn-secondary">Güncelle</a></td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+@section scripts {
+
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+			$("#tblProduct").DataTable();
+		});
+
+	</script>
+
+}
